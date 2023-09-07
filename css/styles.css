@@ -1,0 +1,228 @@
+:root {
+    --c-title: #2E2F42;
+--c-text: #434455;
+--c-feetback: #404BBF;
+--c-button-h1: #FFF;
+--c-footer-logo-paragraf: #F4F4FD; 
+--c-hide-title: brown;
+--c-button-back: #4D5AE5;
+--c-hover-button-back: #404BBF;
+--c-logo-accent: #4D5AE5;
+--c-bgr-c-s: #F4F4FD;
+--c-team-members-bgr: #FFF;
+}
+
+
+body {
+color: var(--c-text);
+font-family: "Roboto" ,sans-serif;
+font-size: 16px;
+background-color: var(--c-button-h1);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+.logo-up {
+color: var(--c-logo-accent);
+font-family: "Raleway" ,sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.logo-accent-up {
+color:var(--c-title);
+}
+
+.nav-link {
+color: var(--c-title);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em; 
+}
+
+.nav-link:hover {
+color: var(--c-feetback);
+}
+
+.nav-link:focus {
+color: var(--c-feetback);    
+}
+
+
+/* Addres */
+.mail-contacts {
+font-style: normal;
+}
+
+.addres-mail-contacts {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.addres-mail-contacts:hover {
+color: var(--c-feetback);
+}
+
+.addres-mail-contacts:focus {
+color: var(--c-feetback);    
+}
+
+
+/* Main section 1 */
+.hero-section {
+background-color: var(--c-title);
+}
+
+.hero-title {
+text-align: center;
+color: var(--c-button-h1);
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+
+.button {
+font-family: inherit;
+color: var(--c-button-h1);
+background-color: var(--c-button-back);
+border: none;
+cursor: pointer;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.button:hover {
+color: var(--c-button-h1);
+background-color: var(--c-hover-button-back);
+}
+
+.button:focus {
+background-color: var(--c-hover-button-back)    
+}
+
+.button:active {
+background-color: var(--c-hover-button-back);    
+}
+
+/* Main section 2 */
+.title-visually-hidden {
+color: var(--c-hide-title);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
+
+.title-of-principles {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.text-principles {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Main section 3 */
+.section-three {
+background-color: var(--c-bgr-c-s);
+}
+
+.title-section-three {
+text-align: center;
+text-transform: capitalize;
+color: var(--c-title);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
+
+/* Team names */
+.team-name {
+background-color: var(--c-team-members-bgr);
+}
+
+.team-member {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.profession-team-member {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+
+/* Main section 4 */
+.title-section-four {
+text-align: center;
+color: var(--c-title);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
+
+/* App Marketing */
+.functionality {
+color: var(--c-title);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;    
+}
+
+.functionality-type {
+color: var(--c-text);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Footer */
+.logo-down {
+color:var(--c-logo-accent);
+font-family: "Raleway" ,sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.logo-accent-down {
+    color: var(--c-footer-logo-paragraf);
+}
+
+.background-footer {
+    background-color: var(--c-title);
+}
+
+.guideline {
+    color:var(--c-footer-logo-paragraf);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
