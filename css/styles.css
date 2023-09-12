@@ -41,12 +41,16 @@ ul {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 /* Header */
 
 .header {
     border-bottom: 1px solid var(--c-border-header-portfolio);
+        width: 1158px;
+    margin: 0 auto;
+padding: 0 15px;
     
 }
 
@@ -57,7 +61,7 @@ ul {
     gap: 24px;
 }
 
-.header-nav {
+.nav {
 align-items: center;
 display: flex;
 margin-right: 332px;
