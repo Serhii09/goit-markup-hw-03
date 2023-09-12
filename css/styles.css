@@ -30,6 +30,7 @@ img {
 }
 
 ul {
+    display: flex;
     list-style-type: none;
     margin:0;
     padding-left: 0;
@@ -45,7 +46,8 @@ ul {
 /* Header */
 
 .header {
-    border-bottom: 1px solid var(--c-border-header-portfolio)
+    border-bottom: 1px solid var(--c-border-header-portfolio);
+    
 }
 
 .header-inner {
@@ -53,12 +55,6 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-}
-
-
-.header-contacts {
-    display: flex;
-    gap: 40px;
 }
 
 .header-nav {
@@ -92,6 +88,10 @@ color:var(--c-title);
     justify-content: center;
 }
 
+.nav-list:last-child {
+    margin-bottom: 0;
+}
+
 
 .nav-link {
     display: inline-block;
@@ -123,10 +123,13 @@ gap: 40px;
 }
 
 .mail-contacts {
+    display: flex;
+    gap: 40px;
 font-style: normal;
 }
 
 .addres-mail-contacts {
+    padding: 24px 0;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
