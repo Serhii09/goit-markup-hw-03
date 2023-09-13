@@ -200,15 +200,6 @@ background-color: var(--c-hover-button-back);
 
 
 /* Main section 2 */
-.visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden !important;
-}
 
 .section-principles {
     background-color: var(--c-button-h1);
@@ -274,8 +265,6 @@ letter-spacing: 0.02em;
 .team-list {
     display: flex;
     gap: 24px;
-    flex-wrap: wrap;
-    row-gap: 48px;
 }
 
 .team-list:last-child {
@@ -415,4 +404,17 @@ text-transform: uppercase;
     color:var(--c-footer-logo-paragraf);
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
