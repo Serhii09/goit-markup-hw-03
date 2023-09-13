@@ -21,6 +21,14 @@ font-size: 16px;
 background-color: var(--c-button-h1);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+}
+
+p {
+    margin:0;
+}
+
 a {
     text-decoration: none;
 }
@@ -61,9 +69,6 @@ ul {
 .nav {
 align-items: center;
 display: flex;
-margin-right: 332px;
-flex-grow: 1;
-gap: 24px;
 }
 
 .logo-up {
@@ -212,7 +217,6 @@ background-color: var(--c-hover-button-back);
 
 .principles-name {
     width: calc((100% - 72px) / 4);
-    margin-bottom: 8px;
 }
 
 .principles-title {
@@ -243,10 +247,6 @@ letter-spacing: 0.02em;
 .section-three {
 padding: 120px 0;
 background-color: var(--c-bgr-c-s);
-}
-
-.team-images {
-margin-bottom: 32px;
 }
 
 .title-section-three {
@@ -301,7 +301,6 @@ letter-spacing: 0.02em;
 
 .team-member-text {
     text-align: center;
-    margin-bottom: 32px;
 color: var(--c-text);
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -370,8 +369,6 @@ letter-spacing: 0.02em;
 
 /* Footer */
 .footer {
-    display: inline-block;
-    margin-bottom: 16px;
     background-color: var(--c-title);
     padding: 100px 0;
 }
